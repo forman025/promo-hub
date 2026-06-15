@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #0b0f17;
+    color: white;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 25px;
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.period {
+    color: #8a93a5;
+    margin-top: 4px;
+}
+
+.section-title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #d7dde8;
+}
+
+.card {
+    background: #151b28;
+    border-radius: 18px;
+    padding: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.dg {
+    border-left: 6px solid #f7d000;
+}
+
+.caseys {
+    border-left: 6px solid #e53935;
+}
+
+.seven {
+    border-left: 6px solid #2ecc71;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.arrow {
+    font-size: 22px;
+    color: #8a93a5;
+}
+
+.holiday-card {
+    background: #1f2432;
+    border-radius: 18px;
+    padding: 18px;
+    margin-top: 25px;
+}
+
+.holiday-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.deadline {
+    color: #ffb74d;
+    font-weight: bold;
+}
