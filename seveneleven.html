@@ -1,109 +1,98 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7-Eleven - Promo Hub</title>
 
-<title>7-Eleven - Promo Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
 
-<style>
+        body {
+            background: #0b0f17;
+            color: white;
+            padding: 20px;
+        }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:"Segoe UI",sans-serif;
-}
+        .back {
+            color: #8a93a5;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
 
-body{
-    background:#0b0f17;
-    color:white;
-    padding:20px;
-}
+        h1 {
+            font-size: 32px;
+        }
 
-.back{
-    color:#8a93a5;
-    text-decoration:none;
-    display:inline-block;
-    margin-bottom:20px;
-}
+        .period {
+            color: #8a93a5;
+            margin: 5px 0 25px;
+        }
 
-h1{
-    font-size:32px;
-    margin-bottom:5px;
-}
+        .week {
+            background: #151b28;
+            border-radius: 18px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,.25);
+        }
 
-.period{
-    color:#8a93a5;
-    margin-bottom:25px;
-}
+        .current {
+            border-left: 6px solid #f7d000;
+            background: #192233;
+        }
 
-.week{
-    background:#151b28;
-    border-radius:18px;
-    padding:20px;
-    margin-bottom:20px;
-    box-shadow:0 4px 12px rgba(0,0,0,.25);
-}
+        .date {
+            color: #8a93a5;
+            margin: 8px 0 16px;
+        }
 
-.current{
-    border-left:6px solid #2ecc71;
-}
+        ul {
+            padding-left: 20px;
+            margin-bottom: 14px;
+        }
 
-.july4{
-    border-left:6px solid #ff5252;
-}
+        li {
+            margin-bottom: 8px;
+        }
 
-.week h2{
-    margin-bottom:10px;
-}
+        .section-title {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 12px;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
 
-.week h3{
-    margin-top:15px;
-    margin-bottom:10px;
-    color:#d7dde8;
-    font-size:16px;
-}
+        .section-title svg {
+            width: 16px;
+            height: 16px;
+            stroke: currentColor;
+            stroke-width: 2;
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
 
-.date{
-    color:#8a93a5;
-    margin-bottom:15px;
-}
+        .navs {
+            background: #5a2d82;
+            color: #edd8ff;
+        }
 
-ul{
-    padding-left:20px;
-}
-
-li{
-    margin-bottom:8px;
-}
-
-.note{
-    margin-top:12px;
-    color:#ffb74d;
-    font-weight:bold;
-}
-
-  .promo-tag{
-    background:#263247;
-    color:#c7d0df;
-    font-size:11px;
-    padding:3px 8px;
-    border-radius:999px;
-    margin-left:8px;
-    white-space:nowrap;
-
-}
-
-.promo{
-    color:#ffb74d;
-    font-weight:bold;
-    
-    }
-
-</style>
-
+        .poet {
+            background: #214b7a;
+            color: #d7ecff;
+        }
+    </style>
 </head>
 
 <body>
@@ -111,112 +100,50 @@ li{
 <a href="index.html" class="back">← Back</a>
 
 <h1>7-Eleven</h1>
+<div class="period">Period 8</div>
 
-<div class="period">
-    Period 7
+<div class="week">
+    <h2>Week 1</h2>
+    <div class="date">7/12 - 7/18</div>
 </div>
 
 <div class="week current">
+    <h2>Week 2</h2>
+    <div class="date">7/19 - 7/25</div>
 
+   
 
-<h2>Week 1</h2>
+    <div class="section-title poet">
+        <svg viewBox="0 0 24 24"><path d="M3 7.5 12 3l9 4.5M3 7.5V16.5L12 21m-9-13.5L12 12m9-4.5V16.5L12 21m0-9V21"/></svg>
+        <span>POET</span>
+    </div>
 
-<div class="date">
-    6/14 - 6/20
-</div>
-
-<h3>📦 POET</h3>
-
-<ul>
-    <li>XXL Doritos July 4th TH PPW</li>
-</ul>
-
-<h3>🚀 Innovation</h3>
-
-<ul>
-    <li>XXVL Ruffles Buffalo Wings (8 ea)</li>
-    <li>XXVL Fritos Spicy Dill Pickle (8 ea)</li>
-</ul>
-
-
+    <ul>
+        <li>XXVL Cheetos PPW (1 Case, +550 WSA)</li>
+    </ul>
 </div>
 
 <div class="week">
+    <h2>Week 3</h2>
+    <div class="date">7/26 - 8/1</div>
 
+    <div class="section-title poet">
+        <svg viewBox="0 0 24 24"><path d="M3 7.5 12 3l9 4.5M3 7.5V16.5L12 21m-9-13.5L12 12m9-4.5V16.5L12 21m0-9V21"/></svg>
+        <span>POET</span>
+    </div>
 
-<h2>Week 2</h2>
-
-<div class="date">
-    6/21 - 6/27
-</div>
-
-<h3>📦 POET</h3>
-
-<ul>
-    <li>XXVL Doritos Dinamita</li>
-    <li>XXVL NKD Dinamita</li>
-    <li>1 Case Each (Top Shelf FEM)</li>
-</ul>
-
-<h3>🚀 Innovation</h3>
-
-<ul>
-    <li>XXVL Doritos Hot Honey Pizza</li>
-
-</ul>
-
-<div class="note">
-    ⭐ 7-Eleven Exclusive
-</div>
-
-
+    <ul>
+        <li>XXVL Lay's Kettle Cooked Jalapeño</li>
+        <li>XXVL Smartfood</li>
+        <li>XXVL Dinamita</li>
+        <li>8 Each • All Stores</li>
+    </ul>
 </div>
 
 <div class="week">
-
-
-<h2>🇺🇸 Week 3</h2>
-
-<div class="date">
-    6/28 - 7/4
-</div>
-
-<h3>📦 POET</h3>
-
-<ul>
-    <li>XXVL Lays Kettle Cooked Jalapeno (8 ea)</li>
-    <li>XXVL Smartfood (8 ea)</li>
-</ul>
-
-<h3>🎆 July 4th Promo</h3>
-<ul class="promo"> <li>XL Doritos B1G1 50% Off
-    
-</li>
-<span class="promo-tag">7/3 - 7/5 Only</span>
-</ul>
-
-
-</div>
-
-<div class="week">
-
-
-<h2>Week 4</h2>
-
-<div class="date">
-    7/5 - 7/11
-</div>
-
-<h3>📦 POET</h3>
-
-<ul>
-    <li>XXVL NKD Dinamita (8 ea)</li>
-</ul>
-
-
+    <h2>Week 4</h2>
+    <div class="date">8/2 - 8/8</div>
 </div>
 
 </body>
 </html>
-
-
