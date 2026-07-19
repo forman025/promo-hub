@@ -1,180 +1,188 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGA - Promo Hub</title>
 
-<title>IGA - Promo Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
 
-<style>
+        body {
+            background: #0b0f17;
+            color: #fff;
+            padding: 20px;
+        }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:"Segoe UI",sans-serif;
-}
+        .back {
+            color: #8a93a5;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
 
-body{
-    background:#0b0f17;
-    color:white;
-    padding:20px;
-}
+        h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
 
-.back{
-    color:#8a93a5;
-    text-decoration:none;
-    display:inline-block;
-    margin-bottom:20px;
-}
+        .period {
+            color: #8a93a5;
+            margin-bottom: 25px;
+        }
 
-h1{
-    font-size:32px;
-    margin-bottom:5px;
-}
+        .week {
+            background: #151b28;
+            border-radius: 18px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .25);
+        }
 
-.period{
-    color:#8a93a5;
-    margin-bottom:25px;
-}
+        .current {
+            border-left: 6px solid #f7d000;
+            background: #192233;
+        }
 
-.week{
-    background:#151b28;
-    border-radius:18px;
-    padding:20px;
-    margin-bottom:20px;
-    box-shadow:0 4px 12px rgba(0,0,0,.25);
-}
+        .date {
+            color: #8a93a5;
+            margin: 8px 0 16px;
+        }
 
-.current{
-    border-left:6px solid #4caf50;
-}
+        ul {
+            padding-left: 20px;
+            margin-bottom: 14px;
+        }
 
-.week h2{
-    margin-bottom:10px;
-}
+        li {
+            margin-bottom: 8px;
+        }
 
-.week h3{
-    margin-top:18px;
-    margin-bottom:10px;
-    color:#d7dde8;
-    font-size:16px;
-}
+        .promo {
+            color: #ffb74d;
+            font-weight: 700;
+        }
 
-.date{
-    color:#8a93a5;
-    margin-bottom:15px;
-}
+        .section-title {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 12px;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
 
-ul{
-    padding-left:20px;
-}
+        .section-title svg {
+            width: 16px;
+            height: 16px;
+            stroke: currentColor;
+            stroke-width: 2;
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
 
-li{
-    margin-bottom:8px;
-}
-
-.promo{
-    color:#ffb74d;
-    font-weight:bold;
-}
-
-</style>
-
+        .promo-badge {
+            background: #5b3a00;
+            color: #ffd58a;
+        }
+    </style>
 </head>
 
 <body>
 
-<a href="index.html" class="back">← Back</a>
+    <a href="index.html" class="back">← Back</a>
 
-<h1>IGA</h1>
+    <h1>IGA</h1>
+    <div class="period">Period 8</div>
 
-<div class="period">
-    Period 7
-</div>
+    <div class="week">
 
-<div class="week current">
+        <h2>Week 1</h2>
+        <div class="date">7/12 - 7/18</div>
 
+        <div class="section-title promo-badge">
+            <svg viewBox="0 0 24 24">
+                <path d="M20 12 12 20 4 12V5h7l9 7z" />
+                <circle cx="8" cy="8" r="1.5" fill="currentColor" stroke="none" />
+            </svg>
+            <span>Promos</span>
+        </div>
 
-<h2>Week 1</h2>
+        <ul class="promo">
+            <li>Party Size Lay's &amp; Kettle - $3.99</li>
+        </ul>
 
-<div class="date">
-    6/14 - 6/20
-</div>
+    </div>
 
-<h3>🏷️ Promos</h3>
+    <div class="week current">
 
-<ul class="promo">
-    <li>Lay's, Kettle & Rold Gold 2/$5</li>
-    <li>Baked & Simply 2/$6</li>
-</ul>
+        <h2>Week 2</h2>
+        <div class="date">7/19 - 7/25</div>
 
+        <div class="section-title promo-badge">
+            <svg viewBox="0 0 24 24">
+                <path d="M20 12 12 20 4 12V5h7l9 7z" />
+                <circle cx="8" cy="8" r="1.5" fill="currentColor" stroke="none" />
+            </svg>
+            <span>Promos</span>
+        </div>
 
-</div>
+        <ul class="promo">
+            <li>XXL Doritos &amp; Ruffles - 2/$7</li>
+        </ul>
 
-<div class="week">
+    </div>
 
+    <div class="week">
 
-<h2>Week 2</h2>
+        <h2>Week 3</h2>
+        <div class="date">7/26 - 8/1</div>
 
-<div class="date">
-    6/21 - 6/27
-</div>
+        <div class="section-title promo-badge">
+            <svg viewBox="0 0 24 24">
+                <path d="M20 12 12 20 4 12V5h7l9 7z" />
+                <circle cx="8" cy="8" r="1.5" fill="currentColor" stroke="none" />
+            </svg>
+            <span>Promos</span>
+        </div>
 
-<h3>🏷️ Promos</h3>
+        <ul class="promo">
+            <li>XL Lay's, Kettle &amp; Tostitos Cantina - 2/$6</li>
+            <li>XL Baked &amp; SunChips - 2/$6</li>
+            <li>Lay's Kettle Cooked - $2.50</li>
+        </ul>
 
-<ul class="promo">
-    <li>Doritos & Ruffles $3</li>
-    <li>Party Size Lay's & Kettle $3.99</li>
-    <li>Value Line $2.50</li>
-    <li>Lay's $2.50</li>
-</ul>
+    </div>
 
+    <div class="week">
 
-</div>
+        <h2>Week 4</h2>
+        <div class="date">8/2 - 8/8</div>
 
-<div class="week">
+        <div class="section-title promo-badge">
+            <svg viewBox="0 0 24 24">
+                <path d="M20 12 12 20 4 12V5h7l9 7z" />
+                <circle cx="8" cy="8" r="1.5" fill="currentColor" stroke="none" />
+            </svg>
+            <span>Promos</span>
+        </div>
 
+        <ul class="promo">
+            <li>Party Size &amp; Rold Gold Selects - 2/$9</li>
+            <li>Party Size Dips - 2/$9</li>
+        </ul>
 
-<h2>Week 3</h2>
-
-<div class="date">
-    6/28 - 7/4
-</div>
-
-<h3>🏷️ Promos</h3>
-
-<ul class="promo">
-    <li>Lay's, Kettle & Tostitos Cantina 2/$5</li>
-    <li>Tostitos & Fritos 2/$7</li>
-    <li>Salsa & Queso Dips 2/$7</li>
-</ul>
-
-
-</div>
-
-<div class="week">
-
-
-<h2>Week 4</h2>
-
-<div class="date">
-    7/5 - 7/11
-</div>
-
-<h3>🏷️ Promos</h3>
-
-<ul class="promo">
-    <li>Party Size 2/$9</li>
-    <li>18 Count MP $9.99</li>
-    <li>Fritos $3.50</li>
-    <li>Lay's $2.50</li>
-</ul>
-
-
-</div>
+    </div>
 
 </body>
-</html>
 
+</html>
